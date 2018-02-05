@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1000px){
+				}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	
+	        section.parallax_section_holder{
+			height: auto !important;
+			min-height: 400px;
+		}
+		}
+@media only screen and (max-width: 768px){
+	
+	
+			h3 {
+			font-size: 24px; 					    		}
+	
+	
+	
+	
+			body,
+		p {
+			font-size: 16px; 			line-height: 30px; 		    		}
+	
+	
+	}
+@media only screen and (max-width: 600px) {
+			h1 {
+			font-size: 40px; 					    		}
+	
+			h2 {
+			font-size: 30px; 					    		}
+	
+			h3 {
+			font-size: 20px; 					    		}
+	
+	
+	
+	
+			body,
+		p {
+			font-size: 14px; 			line-height: 26px; 		    		}
+	}
+@media only screen and (max-width: 480px){
+
+			section.parallax_section_holder {
+			height: auto !important;
+			min-height: 400px;
+		}
+	
+		
+	}

@@ -1,0 +1,206 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("/wp-content/themes/bridge-child/GreenConspiracyWebfontsKit.css");
+@import url("../bridge/style.css");
+
+/* setting the greenConspiracy custom webfonts */
+.FestivoLC-BasicLLine {
+	font-family: FestivoLC-BasicLLine;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-BlackNeueItalic {
+	font-family: CervoNeue-BlackNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-BoldNeue {
+	font-family: CervoNeue-BoldNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-ExtraBoldNeueItalic {
+	font-family: CervoNeue-ExtraBoldNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-BoldNeueItalic {
+	font-family: CervoNeue-BoldNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-ExtraBoldNeue {
+	font-family: CervoNeue-ExtraBoldNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-BlackNeue {
+	font-family: CervoNeue-BlackNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-ExtraLightNeue {
+	font-family: CervoNeue-ExtraLightNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-LightNeue {
+	font-family: CervoNeue-LightNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-ExtraLightNeueItalic {
+	font-family: CervoNeue-ExtraLightNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-LightNeueItalic {
+	font-family: CervoNeue-LightNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-MediumNeue {
+	font-family: CervoNeue-MediumNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-MediumNeueItalic {
+	font-family: CervoNeue-MediumNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-RegularNeue {
+	font-family: CervoNeue-RegularNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-RegularNeueItalic {
+	font-family: CervoNeue-RegularNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-SemiBoldNeue {
+	font-family: CervoNeue-SemiBoldNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-SemiBoldNeueItalic {
+	font-family: CervoNeue-SemiBoldNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-ThinNeue {
+	font-family: CervoNeue-ThinNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+.CervoNeue-ThinNeueItalic {
+	font-family: CervoNeue-ThinNeueItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: FestivoLC-BasicLLine;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 {
+	font-family: CervoNeue-LightNeue;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.mobile_menu_button .fa-bars {
+	display: none;
+}
+/*FOOTER*/
+/*links col1*/
+#text-3 .textwidget a {
+    font-size: 16px !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+}
+
+.footer_top .footer_col3 {
+    text-align: center !important;
+}
+.footer_bottom .textwidget a {
+	font-size: 	12px;
+	font-weight: normal;	
+	text-transform: none;
+	color: #3f3f3f;
+}
+
+#text-4 h5 {
+       text-align: center !important;
+}
+
+#back_to_top span i {
+	color: #b2df6c !important;
+}
+
+.footer_bottom {
+	color: #3f3f3f;
+}
+
+
+@media only screen and (max-width: 680px) and (min-width: 400px) {
+	.footer_top .column1 {
+		width: 50%;
+	}
+	.footer_top .column2 {
+		width: 50%;
+	}
+	.footer_top .column3 {
+		width: 50%;
+		padding: 15px 0%; 
+	}
+	.footer_top .column3 h5 {
+		padding: 15px 5% 0; 
+	}
+}
+
+@media only screen and (max-width: 580px) and (min-width: 400px) {
+	.footer_top .container_inner {
+		margin-left: 2%;
+		width: 96%;
+	}
+	.footer_top .column1 {
+		width: 60%;
+	}
+	.footer_top .column2 {
+		width: 40%;
+	}
+	.footer_top .column3 {
+		width: 40%;
+		padding: 15px 0%; 
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.footer_top .container_inner {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.footer_top .column1 {
+		width: 100%;
+		text-align: center;
+	}
+	.footer_top .column2 {
+		width: 100%;
+	}
+	.footer_top .column3 {
+		width: 100%;
+	}
+}
